@@ -1,4 +1,4 @@
-require('dotenv').load();
+require('dotenv').load({path:__dirname + '/.env'});
 var Spreadsheet = require('edit-google-spreadsheet');
 var data = require('./data');
 Spreadsheet.load({
