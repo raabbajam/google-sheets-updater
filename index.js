@@ -17,6 +17,7 @@ Spreadsheet.load({
     spreadsheet.add(data);
     spreadsheet.send(function(err) {
       if (err) throw err;
+      console.log('done.');
       process.exit(0)
     });
   });

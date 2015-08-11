@@ -18,6 +18,7 @@
     "google",
     "sheets"
   ],
+  "repository": "git@github.com:raabbajam/google-sheets-updater.git",
   "author": "Raabb Ajam <raabbajam@gmail.com>",
   "license": "MIT"
 }
